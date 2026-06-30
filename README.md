@@ -120,7 +120,7 @@ visionforge/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/achrafdev89/ai-image-generator.git
+git clone https://github.com/achrafdev89/VisionForge.git
 cd ai-image-generator
 ```
 
