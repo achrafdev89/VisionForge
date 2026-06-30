@@ -32,7 +32,7 @@ VisionForge is the front-of-house for an OpenAI image model, wrapped in a dark "
 
 | | |
 |---|---|
-| **Live URL** | https://ai-image-generator.achibane-dev.workers.dev/ |
+| **Live URL** | [🚀 Live Demo](https://ai-image-generator.achibane-dev.workers.dev/)|
 | **Frontend** | Static HTML / CSS / vanilla JS, deployed on Cloudflare Workers |
 | **Backend** | Express API on Render, calling OpenAI `gpt-image-2` |
 | **Design** | Syne + DM Sans + JetBrains Mono · Obsidian `#09090F` · Violet `#7B2FE0` · Mint `#00C9A7` |
