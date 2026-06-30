@@ -1,0 +1,8 @@
+{
+  "name": "visionforge-tools-scripts",
+  "private": true,
+  "description": "Playwright auto-demo capture for VisionForge. Run via the root package.json (npm run screenshots).",
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}

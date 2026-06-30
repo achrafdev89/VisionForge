@@ -1,0 +1,13 @@
+{
+  "name": "visionforge-tools",
+  "private": true,
+  "description": "Local tooling for VisionForge — automated screenshot & demo capture.",
+  "scripts": {
+    "screenshots": "node scripts/capture-screenshots.js",
+    "screenshots:live": "node scripts/capture-screenshots.js --url https://ai-image-generator.achibane-dev.workers.dev/",
+    "demo:gif": "ffmpeg -y -i screenshots/.demo/walkthrough.webm -vf \"fps=18,scale=900:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer\" screenshots/demo.gif"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}
